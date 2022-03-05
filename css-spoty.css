@@ -1,0 +1,205 @@
+body{
+    background-color: rgb(41 65 171);
+    background-image: url(./ressourses/bursts.svg) ;
+  background-repeat: no-repeat;
+  background-position-x: -330px;
+  background-size: 155%;
+   
+    margin: 0px;
+   
+}
+.black{/*header color*/
+    background-color: black;
+    height:84px;
+    
+}
+.black a{/*nav-header*/
+    float:  right;
+    color: white;
+    padding-top: 35px;
+    padding-right: 56px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family:Helvetica, Arial, sans-serif;
+    font-weight: 700px
+
+}
+.black a:hover{
+    color: #1ed760;
+    transition:all 0.2s;
+
+}
+.logo{/*spoty-logo*/
+     padding-top: 21px;
+    padding-left: 180px;
+    float: left;
+}
+.banner{/*hero-g*/
+   
+    display: inline-block;
+
+}
+
+.verde{/*hero-text*/
+    padding-top: 120px;
+    padding-left: 650px;
+    color: rgb(79, 202, 79);
+    font-size: 78px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-bottom: 0px;
+  
+}
+.verde p{/*parraro-hero*/
+    padding: 21px;
+    margin: 0px;
+    font-size: 18px;  
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+}
+
+
+.ended{/*footer*/
+
+    background-color: black;
+    margin-top: 310px;
+    padding-top: 270px;
+    height: 290px;
+  
+ 
+}
+.gover{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.free{
+    border-radius: 120px;
+    height: 54px;
+    width: 240px;
+    border-color:rgba(245, 222, 179, 0) ;
+    background-color: rgb(64, 204, 64);
+    border-style: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(62, 30, 204);
+    display: block;
+
+}
+.free:hover{
+    translate: 0,0;
+    height: 65px;
+    width: 250px;
+    transition: all 0.3s;
+}
+
+
+    
+
+
+.list a{
+    margin-top: 210px;
+    padding-bottom: 0px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+table{
+    margin: 21px;
+    display: inline-block;
+    padding: 32px;
+    top: 50%;
+   
+}
+
+.enla a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.enla a:hover{
+    color: #1ed760;
+    transition: all 0.3s;
+}
+.comu a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.comu a:hover{
+    color: #1ed760;
+    transition: all 0.3s;
+}
+.comp a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+    
+}
+.comp a:hover{
+    color: #1ed760;
+    transition: all 0.3s;
+}
+.legal{
+    padding:27px;
+    background-color: black;
+   
+}
+.legal a{
+    padding: 12px;
+    color: gray;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+#footerlog{
+    position: absolute;
+    left: 15%;
+    top: 130%;
+}
+.legal a:hover{
+    color: #1ed760;
+    transition: all.3s;
+}
+#cp{
+    float: right;
+}
+#ext{
+ 
+}
+/*anim*/
+.free:hover::before{
+    transform: scale(15px);
+    transition: all .5s ease-in;
+}
+/*@medias*/
+    @media( max-width: 970px) 
+    {.verde {
+      
+        width: 744px;
+        margin: 50px auto;
+        display: inline-block;
+         }
+    }
+    @media(max-width: 970px){
+        .black{ max-width: 1170px;
+            height: 80px;
+
+        }
+    }
+    @media (min-width: 992px){
+        .black a{
+            display: inline-block;
+        }
+    }
+    @media(min-width:992px){
+      
+    }

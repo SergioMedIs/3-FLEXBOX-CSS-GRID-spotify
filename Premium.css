@@ -1,0 +1,336 @@
+body{
+    margin:0px;
+}
+.black{/*header color*/
+    background-color: black;
+    height:84px;
+    padding-right: 275px;
+    
+}
+.black a{/*nav-header*/
+    float:  right;
+
+    color: white;
+    padding-top: 35px;
+    padding-right: 28px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family:Helvetica, Arial, sans-serif;
+    font-weight: 700px
+
+}
+.black a:hover{
+    color: #1ed760;
+    transition:all 0.2s;
+
+}
+.logo{/*spoty-logo*/
+     padding-top: 21px;
+    padding-left: 320px;
+    float: left;
+}
+.green{
+    background-color: #c3f0c9;
+    padding-top: 15px;
+    padding-bottom: 43px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.intgreee{
+
+}
+.text-hero{
+    padding-top: 45px;
+    padding-left: 310px;
+    margin:16px;
+    font-size: 37px;
+    font-weight: 1200;
+}
+.mintext{
+    font-size: 25px;
+    margin: 15px;
+    padding: 37px;
+    font-weight: 500;
+    padding-left: 310px;
+}
+.buttons{
+    padding-left: 330px;
+}
+.bnegro{
+    margin-right: 11px;
+    box-sizing: border-box;
+    height: 59px;
+    width: 150px;
+    border-radius: 500px;
+    background-color: black;
+    color: white;
+    border-color: rgba(255, 255, 255, 0);
+}
+.bnegro:hover{
+    background-color: rgb(31, 31, 31);
+    transition: all.2s;
+    transform: scale(1);
+}
+.bgray{
+    margin-right: 21px;
+    box-sizing: border-box;
+    height: 59px;
+    width: 150px;
+    border-radius: 500px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+.bgray:hover{
+    transition: all.2s;
+    background-color: rgba(255, 255, 255, 0.507);
+}
+.bgray{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.fg{
+    font-size: 12px;
+    margin: 25px;
+    padding-left: 310px;
+    padding-top: 25px;
+}
+.fg a{
+    color: black;
+}
+.p-blank{
+    margin: 12px;
+    padding-bottom: 82px;
+}
+.band2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    margin:13px;
+    padding: 21px;
+    text-align: center;
+}
+.bepre{
+    padding-left: 350px;
+    margin: 12px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+.bepre img{
+
+   
+    margin: 5px;
+    padding-right: 78px;
+    padding-left: 78px;
+}
+.bepre h3{
+    font-size: 21px;
+}
+.bepre h5{
+     margin: 2px;
+     font-size: 16px;
+     font-weight: 500;
+}
+.p-gray{
+    margin: 0px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.plan{
+    padding-top: 45px;
+    margin: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29px;
+}
+.p-gray h3{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 12px;
+    font-size: 18px
+
+}
+.p-gray img{
+    margin: 6px;
+    padding-bottom: 50px; 
+}
+.table-grid{
+    flex-flow: column ;
+    display: grid;
+    margin: 0  310px; 
+    width:15% ;
+    grid-template-columns: repeat(4, 1fr)  ;
+    grid-gap:15px;
+    box-shadow: 16px black;
+    padding-bottom: 150px;
+}
+
+.item-grid{
+    border-radius: 16px;
+    background-color: white;
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 16px;
+    margin: 0 auto; 
+    padding: 16px;
+    text-align: left;
+    box-shadow:
+    inset 0px 1px 1px rgba(0,0,0,0.1),
+          0 0  0 2px rgba(71, 71, 71, 0.158),
+          1px 1px 21px rgba(0,0,0,0.3);
+}
+.item-grid li{
+    list-style: none;
+   list-style-image:  url(./ressourses/80-807577_accept-check-green-ok-success-tick-yes-check24px.png);
+    /*image-*/
+}
+.title {
+    padding: 2px;
+    margin-bottom: 0px;
+    margin-left: 6px;
+    margin-top: 6px;
+    text-align: left;
+    font-weight: 8700;
+}
+li{
+
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.sc{
+    height: 79px;
+}
+.individual{
+    background-color: rgb(46, 119, 208);
+    border-color: rgba(240, 248, 255, 0);
+    border-radius: 6px;
+    color: white;
+    font-weight: 200;
+    height: 32px;
+    width: 250px;
+
+}
+.butN{
+    margin: auto;
+    padding-top: 25px;
+}
+.pagoU{
+    background-color: white;
+    border-color:  rgb(46, 119, 208) ;
+    border-radius: 6px;
+    color: rgb(46, 119, 208);
+    font-weight:800 ;
+    height: 32px;
+    width:185px ;
+ 
+}
+.inf{
+    padding-bottom: 41px;
+    font-weight: 500;
+     margin: 11px;
+     font-size: 18px;
+}
+.chek li{ 
+
+    font-weight: 450;
+}
+.butN{
+    padding: 12px;
+}
+.comenzar{
+    background-color:  rgb(31, 31, 31);
+    color: white;
+    height: 52px;
+    width: 250px;
+    border-radius: 32px;    
+    font-size: 22px;
+    font-weight: 700;
+}
+.comenzar:hover{
+    transition: all.1s;
+    background-color: rgb(15, 15, 15);
+}
+.term{
+    color: rgb(107, 107, 107);
+    font-size: 12px;    
+    padding-bottom: 41px;
+    font-weight: 650;
+}
+.term a{
+    color: rgb(107, 107, 107);
+
+
+}
+#futer{
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: black;
+
+}
+.infoEM-flex{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:left;
+    text-align: left;
+    color: white;
+   
+}
+.infoEM-flex img{
+    display: flex;
+    margin-left: 290px;
+    padding-left: 3px;
+    background-color: black;
+    padding-left: 1%;
+}
+
+.titttle{
+    color: rgb(95, 95, 95);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.list{
+    margin: 3px;
+    padding-left: 90px;
+    letter-spacing:1px ;
+    font-size: 16px;
+    font-weight: 100;
+}
+.infoEM-flex li{
+    padding-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+.infoEM-flex li:hover{
+    transition: all 0.3s;
+    color: #1ed760;
+}
+.iconsocial img{
+    margin: auto;
+    background-color: white;
+}
+.legal{
+    padding-left: 240px;
+    padding-top: 170px;
+    background-color: black;
+    justify-content: left;
+   
+   
+}
+.legal a{
+    float: left;
+    padding: 12px;
+    color: gray;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+
+}
+#cp{
+    padding-right: 45px;
+    float: right;
+}
+.legal a:hover{
+    color: #1ed760;
+    transition: all.3s;
+}
